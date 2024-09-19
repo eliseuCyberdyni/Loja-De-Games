@@ -1,4 +1,7 @@
 body{
+     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
     
  /* Define a imagem de fundo */
             background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-controle-dentro-neon-claro-computador-gerado-3d-renderizacao-generativo-ai-gratis-foto.jpg');
@@ -13,8 +16,8 @@ body{
             background-repeat: no-repeat;
             
             /* Garante que o body ocupe toda a tela */
-            height: 100vh;
-            margin: 0;
+            height: 100px;
+            margin: 0px;
 
 
 
