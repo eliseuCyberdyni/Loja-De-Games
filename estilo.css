@@ -30,4 +30,13 @@ background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-c
             /* Garante que o body ocupe toda a tela */
             height: 100vh;
             margin: 0;
+
+
+
+     background-size: contain;
+     background-attachment: fixed;
+
+
         }
+
+
