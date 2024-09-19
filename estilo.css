@@ -1,4 +1,5 @@
 body{
+    
 .table {
     display: table;
     width: 100px;
@@ -14,3 +15,19 @@ body{
 background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-controle-dentro-neon-claro-computador-gerado-3d-renderizacao-generativo-ai-gratis-foto.jpg")  
   
 }
+ {
+           
+            
+            /* Faz a imagem cobrir toda a tela */
+            background-size: cover;
+            
+            /* Centraliza a imagem */
+            background-position: center;
+            
+            /* Impede que a imagem se repita */
+            background-repeat: no-repeat;
+            
+            /* Garante que o body ocupe toda a tela */
+            height: 100vh;
+            margin: 0;
+        }
