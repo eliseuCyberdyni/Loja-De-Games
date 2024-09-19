@@ -1,4 +1,4 @@
-onmessage = function(e) {
+donmessage = function(e) {
     var result = 0;
     for (var i = 0; i < 1e9; i++) {
         result += i;
@@ -23,6 +23,14 @@ function debounce(func, wait) {
 window.addEventListener('resize', debounce(function() {
     console.log('Redimensionado');
 }, 200));
+
+// Armazenando um valor no LocalStorage
+localStorage.setItem('usuario', 'João');
+
+// Recuperando um valor do LocalStorage
+let usuario = localStorage.getItem('usuario');
+console.log(usuario); // Saída: João
+
 
 // Armazenando um valor no LocalStorage
 localStorage.setItem('usuario', 'João');
