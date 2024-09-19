@@ -16,25 +16,7 @@
 
 <!-- Carregar um script de forma assíncrona -->
 <script src="script.js" async></script>
-
-    function saudacao(nome) {
-    console.log("Olá, " + nome);
-}
-saudacao("Mundo");
     
-function saudacao(n){console.log("Olá, "+n)}saudacao("Mundo");
-
-<img data-src="imagem.jpg" class="lazyload">
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var lazyImages = document.querySelectorAll('.lazyload');
-        lazyImages.forEach(function(img) {
-            img.src = img.dataset.src;
-        });
-    });
-    
-</script>
-
 <script>
     var worker = new Worker('worker.js');
     worker.onmessage = function(e) {
