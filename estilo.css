@@ -1,5 +1,16 @@
 body{
-display: inline-box;
+.table {
+    display: table;
+    width: 100%;
+}
+.table-row {
+    display: table-row;
+}
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+}
+
 background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-controle-dentro-neon-claro-computador-gerado-3d-renderizacao-generativo-ai-gratis-foto.jpg")  
   
 }
