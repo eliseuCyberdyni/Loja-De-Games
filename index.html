@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css"
-   
+    <link rel="stylesheet" href="javascript.js"
+
     
    
 </head>
@@ -33,7 +34,15 @@ function saudacao(n){console.log("Olá, "+n)}saudacao("Mundo");
     });
 </script>
 
+<script>
+    var worker = new Worker('worker.js');
+    worker.onmessage = function(e) {
+        console.log('Resultado: ' + e.data);
+    };
+    worker.postMessage('Iniciar cálculo');
+</script>
 
+    
 
     
 </body>
