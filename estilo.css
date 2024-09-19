@@ -1,16 +1,8 @@
 body{
     
-.table {
-    display: table;
-    width: 100px;
-}
-.table-row {
-    display: table-row;
-}
-.table-cell {
-    display: table-cell;
-    padding: 10px;
-
+ /* Define a imagem de fundo */
+            background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-controle-dentro-neon-claro-computador-gerado-3d-renderizacao-generativo-ai-gratis-foto.jpg');
+    
  /* Faz a imagem cobrir toda a tela */
             background-size: cover;
             
@@ -28,10 +20,6 @@ body{
 
      background-size: contain;
      background-attachment: fixed;    
-}
-
-background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22453343-controle-dentro-neon-claro-computador-gerado-3d-renderizacao-generativo-ai-gratis-foto.jpg")  
- background-repeat: no-repeat;  
 }
 
 
