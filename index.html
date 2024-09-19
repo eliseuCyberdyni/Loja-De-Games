@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css"
-    <title></title>
+   
     
    
 </head>
 <body>
-   
+<script>
+<!-- Carregar um script com defer -->
+<script src="script.js" defer></script>
+
+<!-- Carregar um script de forma assíncrona -->
+<script src="script.js" async></script>
+
+    function saudacao(nome) {
+    console.log("Olá, " + nome);
+}
+saudacao("Mundo");
+    
+function saudacao(n){console.log("Olá, "+n)}saudacao("Mundo");
+
+<img data-src="imagem.jpg" class="lazyload">
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var lazyImages = document.querySelectorAll('.lazyload');
+        lazyImages.forEach(function(img) {
+            img.src = img.dataset.src;
+        });
+    });
+</script>
+
+
+
+    
 </body>
 </html>
 
