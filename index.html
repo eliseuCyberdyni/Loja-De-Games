@@ -12,19 +12,7 @@
 </head>
 <body>
 
-<!-- Carregar um script com defer -->
-<script src="script.js" defer></script>
 
-<!-- Carregar um script de forma assíncrona -->
-<script src="script.js" async></script>
-    
-<script>
-    var worker = new Worker('worker.js');
-    worker.onmessage = function(e) {
-        console.log('Resultado: ' + e.data);
-    };
-    worker.postMessage('Iniciar cálculo');
-</script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRn5l5hb7M9HE5JJ5J5Ql5/bS5hF5F5JFJ5/Jq+J6Q" crossorigin="anonymous"></script>
     
